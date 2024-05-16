@@ -6,7 +6,7 @@ Code for specific task that save time
 ### Second, open your terminal and type 
 
 ``` 
-cd /mnt
+cd /mnt/
 sudo mkdir g (or what ever letter your disk is, in this example i am suing G)
 sudo mount -t drvfs g: /mnt/g
 ``` 
