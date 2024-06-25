@@ -35,7 +35,7 @@ done
 ### It require to have the header IDs of the sequences without the ">" in a textfile
 ### This python script has three arguments and BioPython
 
-Sequence_1 \n
+Sequence_1 "\n"
 Sequence_156 \n
 Sequence_11684 \n
 Sequence_20546 \n
