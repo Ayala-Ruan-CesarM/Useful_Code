@@ -35,11 +35,11 @@ done
 ### It require to have the header IDs of the sequences without the ">" in a textfile
 ### This python script has three arguments and BioPython
 
-Sequence_1
-Sequence_156
-Sequence_11684
-Sequence_20546
-Sequence_553218
+Sequence_1 \n
+Sequence_156 \n
+Sequence_11684 \n
+Sequence_20546 \n
+Sequence_553218 \n
 
 ```
 python Remove_Seqs_By_Header.py input.fasta headers.txt > output.fasta
