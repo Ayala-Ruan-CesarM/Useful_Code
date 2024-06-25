@@ -29,7 +29,24 @@ for folder in "${folder_list[@}": do
   echo hello world > test.txt
   # this will create a file containing the words "hello world" in each folder 
 done
-
 ``` 
 
+## How to remove a set of sequences from a multi fasta file by its header
+### It require to have the header IDs of the sequences without the ">" in a textfile
+### This python script has three arguments and BioPython
 
+Sequence_1
+Sequence_156
+Sequence_11684
+Sequence_20546
+Sequence_553218
+
+```
+python Remove_Seqs_By_Header.py input.fasta headers.txt > output.fasta
+``` 
+## How to extract a set of sequences from a multi fasta file by its header
+### It require to have the header IDs of the sequences without the ">" in a textfile
+
+```
+seqkit grep -f headers.txt -o Wanted_seqs.fasta input.fasta
+``` 
